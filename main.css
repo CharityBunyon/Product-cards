@@ -1,1 +1,80 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+}
+
+#stay {
+    padding: o;
+}
+
+body {
+    background-color: #ffe4c4;
+}
+
+/* Section tag that contains all product cards */
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis: auto;
+    justify-content: center;
+    
+}
+
+
+/* Div that contains the product name in an h2 */
+.product-cards {
+    /* border: 1px solid black; */
+    margin: 20px;
+    background-color: #ffe4c4;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.6);
+    align-content: space-between;
+    
+}
+
+.product-cards h2, img {
+    text-align: center;
+}
+
+/* Div that contains the img and p tag */
+
+.product-image {
+    margin-bottom: 10px;
+}
+.product-image  img{
+    width: 400px;
+    margin: 0px 5px 0px 5px;
+  
+}
+.product-image p {
+   background-color: #fbefe9;
+   font-weight: bold;
+
+   
+}
+
+.bold header, p {
+    font-weight: bold;
+
+}
+
+/* .specs header, p{
+    border: 1px solid black;
+    
+} */
+
+.specs p{
+    /* border: 1px solid black; */
+    text-indent: 10px;
+
+}
+
+.price p {
+    text-indent:10px;;
+}
+
+.specs , .price{
+    margin-bottom: 10px;
+    padding-left:10px;
+}
+
 

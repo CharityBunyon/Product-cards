@@ -1,14 +1,43 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster|Open+Sans&display=swap');
+
+
+
 * {
     margin: 0 auto;
     padding: 0;
 }
 
-#stay {
-    padding: o;
-}
 
 body {
-    background-color: #ffe4c4;
+    background-color: #ece6df;
+}
+/* Navbar */
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-content: space-between;
+    margin-bottom: 100px;
+    padding: 50px;
+    background-color: #3b3b3b;
+}
+
+.logo{
+    font-size: 50px;
+    color: #fff;
+    font-family: Lobster;
+}
+
+
+
+.nav-links a {
+    margin: 1em;
+    text-decoration: none;
+    color: #fff;;
+}
+
+.nav-links a:hover {
+    color: #ffcc00;
 }
 
 /* Section tag that contains all product cards */
@@ -20,19 +49,19 @@ body {
     
 }
 
-
 /* Div that contains the product name in an h2 */
 .product-cards {
     /* border: 1px solid black; */
     margin: 20px;
-    background-color: #ffe4c4;
+    background-color:#ece6df;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.6);
     align-content: space-between;
     
 }
-
-.product-cards h2, img {
+.product-cards h2 {
+    padding-bottom: 20px;
     text-align: center;
+   
 }
 
 /* Div that contains the img and p tag */
@@ -42,12 +71,13 @@ body {
 }
 .product-image  img{
     width: 400px;
-    margin: 0px 5px 0px 5px;
+    margin: 0px 5px 5px 5px;
   
 }
 .product-image p {
    background-color: #fbefe9;
    font-weight: bold;
+   padding: 5px 0 5px 10px;
 
    
 }

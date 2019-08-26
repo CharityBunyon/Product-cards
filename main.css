@@ -10,13 +10,14 @@
 
 body {
     background-color: #ece6df;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 /* Navbar */
 
 nav {
     display: flex;
-    justify-content: space-between;
-    align-content: space-between;
+    flex-flow: row wrap;
+    justify-content: flex-end;
     margin-bottom: 100px;
     padding: 50px;
     background-color: #3b3b3b;
@@ -40,6 +41,8 @@ nav {
     color: #ffcc00;
 }
 
+
+
 /* Section tag that contains all product cards */
 .products {
     display: flex;
@@ -59,8 +62,10 @@ nav {
     
 }
 .product-cards h2 {
-    padding-bottom: 20px;
+    padding: 10px 0px;
     text-align: center;
+    border-bottom: 1px solid #3b3b3b;
+    margin-bottom: 10px;
    
 }
 
@@ -70,41 +75,62 @@ nav {
     margin-bottom: 10px;
 }
 .product-image  img{
-    width: 400px;
+    /* width: 400px; */
+    display: block;
+    width: 400px;;
     margin: 0px 5px 5px 5px;
   
 }
-.product-image p {
-   background-color: #fbefe9;
-   font-weight: bold;
-   padding: 5px 0 5px 10px;
 
-   
+.description {
+    text-align: center;
+    width: 400px;
+    padding: 10px 0px;
 }
 
-.bold header, p {
+.avl {
+    background-color:  #fbefe9;
+    padding: 5px 5px 5px 10px;
     font-weight: bold;
-
 }
 
-/* .specs header, p{
-    border: 1px solid black;
-    
-} */
-
-.specs p{
-    /* border: 1px solid black; */
-    text-indent: 10px;
-
+.specs p, header, 
+.price p, header{
+    font-weight: bold;
 }
 
+.specs p,
 .price p {
-    text-indent:10px;;
+    text-indent: 10px;
 }
+
 
 .specs , .price{
     margin-bottom: 10px;
     padding-left:10px;
 }
 
+.soldout {
+    position: absolute;
+    padding-top: 100px;
+}
 
+/* Media Queries */
+
+@media (max-width: 800px){
+    nav {
+        justify-content: space-around;
+    }
+   
+}
+
+@media (max-width: 600px) {
+    nav {
+        flex-direction: column;
+    }
+    .nav-links a {
+        display: block;
+    }
+  
+
+}

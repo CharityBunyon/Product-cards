@@ -4,9 +4,9 @@
 Use this application to check out the specs and information for pancake items.
 
 ## Screenshots
-![The Epic Griddle Preview 1]()
+![The Epic Griddle Preview 1](https://raw.githubusercontent.com/CharityBunyon/Product-cards/master/images/SS1.png)
 
-![The Epic Griddle Preview 2]()
+![The Epic Griddle Preview 2](https://raw.githubusercontent.com/CharityBunyon/Product-cards/master/images/SS2.png)
 
 ## How to run
 * Clone down this project 
